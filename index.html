@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+    
+   
+    
+    <!--- REMIX ICON OPEN SOURCE CSS FILE LOAD FORE ICON -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+    
+    <!--- FONT AWESOME CSS FILE LOAD FOR ICON -->
+   
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+       <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home,search" rel="stylesheet" />
+    
+    <!--MAIN CSS FILE LINK -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- TABLET LAYOUT CDD FILE -->
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 550px)">
+    
+    <title>SpotiFy - Web Player: Music For Everyone || Clone by Ayush</title>
+</head>
+<body>
+    
+    
+    <!--- MOBILE HTML START 📱 -->
+    
+    <div class="mobile-layout">
+    <header class="main-header">
+        
+        <div class="about-app">
+            
+             <i class="app-logo ri-spotify-fill"></i>
+        <p class="app-name">Spotify <span class="registered-trademark" >&reg;</span></p>
+        
+        </div>
+        
+        <button class="open-app">Open App</button>
+        
+     <input type="checkbox" name="nothing" id="menu-box" hidden>
+     <label class="main-menu" for="menu-box">
+        <div class="menu">
+        <div class="menu-bar one"></div>
+        <div class="menu-bar two"></div>
+        <div class="menu-bar three"></div>
+        </div>
+     </label>
+     <div class="menu-drawable">
+        <div class="menu-main">
+        <a class="menu-bar-text" href="#">Log in</a>
+         <a class="menu-bar-text" href="#">Sign up</a>
+         <section class="divider"></section>
+         <a class="menu-bar-text" href="">Premium</a>
+         <a class="menu-bar-text" href="">Help</a>
+         <a class="menu-bar-text" href="">Download</a>
+         <a class="menu-bar-text" href="">Privacy</a>
+         <a class="menu-bar-text" href="">Term</a>
+         </div>
+    </div>
+    </header>
+     <input type="checkbox" name="nothing" id="close-card">
+    <main>
+        
+        <!-- BUY PREMIUM CARD-->
+       
+        <section class="alert-buy-premium">
+            <div class="premium-top">  
+                          <div class="premium-about">
+                              
+               <i class="app-logo2 ri-spotify-fill"></i>
+               
+               <p class="name-premium">Premium</p>
+               
+               </div>
+               
+               <div class="right-cut">
+                   
+               <label for="close-card">
+                  
+               <i class="fa-solid fa-xmark"></i>
+               
+               </label>
+               </div>
+               </div>
+               <div class="premium-info">
+                   <h2 class="premium-title">Listen without limits. Try 3 months of Premium Individual for ₹139.</h2>
+                   <p class="Premium-cancel">Only ₹139/month after. Cancel anytime.</p>
+                   </div>
+                   <div class="premium-plan">
+                       <button class="buy-premium">Try 3 months for ₹139</button>
+                       <p class="other-plans">View all plans</p>
+               </div>
+               <div class="term-premium">
+                   <p class="warn-text">
+                       Premium Individual only. ₹139 for 3 months, then ₹139 per month after. Offer only available if you haven't tried Premium before, 
+                   </p>
+                   <a class="term-go" href="/terms/premium.html">Terms apply.</a>
+                   <p class="offer-expire">Offer ends September 23, 2025.</p>
+               </div>
+        </section>
+        
+         <!-- BUY PREMIUM CARD CONTENT END -->
+        
+        <!-- ALL SONGS -->
+        
+        <section class="music-section">
+            <!-- TRENDING MUSIC START -->                
+            <div class="trending-music">
+                
+        <a class="music trending-songs" href="#">Trending songs</a>
+        
+        <div class="music-info">
+            
+            <div class="music-card music-card-one">
+                
+            <img class="poster-card trending-music-poster"src="assets/images/TRENDING/first-poster.PNG" alt="Arz Kiya Hai | Coke Studio Bharat"> 
+            <p class="music-title">Arz Kiya Hai | Coke Studio Bharat</p>
+            </div>
+            
+            <div class="music-card music-card-two">
+                
+               <img class="poster-card trending-music-poster"src="assets/images/TRENDING/second-poster.PNG" alt="Oorum Blood - From">
+               <p class="music-title">Oorum Blood - From "Dude"</p>
+            </div>
+            
+             <div class="music-card music-card-three">
+                 
+                 <img class="poster-card trending-music-poster"src="assets/images/TRENDING/third-poster.PNG" alt="Bijuria (From "Sunny Sanskari Ki Tulsi Kumari">
+                  <p class="music-title">Bijuria (From "Sunny Sanskari Ki Tulsi Kumari</p>
+            </div>
+            <div class="music-card music-card-four">
+                  <img class="poster-card trending-music-poster"src="assets/images/TRENDING/fourth-poster.PNG" alt="For A Reason">
+                   <p class="music-title">For A Reason</p>
+            </div>
+             <div class="music-card music-card-five">
+                   <img class="poster-card trending-music-poster"src="assets/images/TRENDING/fiveth-poster.PNG" alt="Deewaniyat (From 'Ek Deewane Ki Deewaniyat')">
+                  <p class="music-title">Deewaniyat (From 'Ek Deewane Ki Deewaniyat')</p>
+            </div>
+            <div class="music-card music-card-six">
+                    <img class="poster-card trending-music-poster"src="assets/images/TRENDING/sixth-poster.PNG" alt="Thangapoovey">
+              <p class="music-title">Thangapoovey</p>
+            </div>
+            <div class="music-card music-card-seven">
+                     <img class="poster-card trending-music-poster"src="assets/images/TRENDING/seventh-poster.PNG" alt="Guzaara (From "Baaghi 4")">
+                      <p class="music-title">Guzaara (From "Baaghi 4")</p>
+            </div>
+            <div class="music-card music-card-eight">
+                      <img class="poster-card trending-music-poster"src="assets/images/TRENDING/eight-poster.PNG" alt="Balenci">
+                 <p class="music-title">Balenci</p>
+            </div>
+            
+        </div>
+        </div>
+        
+        
+        <!--- TRENDING MUSIC COMPLETE-->
+        
+             <!-- Poupler Artist MUSIC START -->               
+            <div class="Poupler-Artist">
+                
+        <a class="music Poupler-Artist-pic" href="#">Popular artists</a>
+        
+        <div class="music-info">
+            
+            <div class="music-card music-card-one">
+                
+            <img class="poster-card pritam"src="assets/images/Populer-artist/first-poster.PNG" alt="Pritam"> 
+            <p class="music-title">Pritam</p>
+            </div>
+            
+            <div class="music-card music-card-two">
+                
+               <img class="poster-card ar-rahman"src="assets/images/Populer-artist/second-poster.PNG" alt="A.R. Rahman">
+               <p class="music-title">A.R. Rahman</p>
+            </div>
+            
+             <div class="music-card music-card-three">
+                 
+                 <img class="poster-card arjit-singh"src="assets/images/Populer-artist/third-poster.Png" alt="Arjit Singh">
+                  <p class="music-title">Arjit Singh</p>
+            </div>
+            <div class="music-card music-card-four">
+                  <img class="poster-card Sachin-Jigar"src="assets/images/Populer-artist/fourth-poster.PNG" alt="Sachin-Jigar">
+                   <p class="music-title">Sachin-Jigar</p>
+            </div>
+             <div class="music-card music-card-five">
+                   <img class="poster-card Vishal-Shekhar"src="assets/images/Populer-artist/six-poster.PNG" alt="Vishal-Shekhar">
+                  <p class="music-title">Vishal-Shekhar</p>
+            </div>
+            <div class="music-card music-card-six">
+                    <img class="poster-card trending-music-poster"src="assets/images/Populer-artist/seven-poster.PNG" alt="Atif-Aslam">
+              <p class="music-title">Atif-Aslam</p>
+            </div>
+            <div class="music-card music-card-seven">
+                     <img class="poster-card Anirudh-Ravichander"src="assets/images/Populer-artist/eight-poster.PNG" alt="Anirudh-Ravichander">
+                      <p class="music-title">Anirudh Ravichander</p>
+            </div>
+            <div class="music-card music-card-eight">
+                      <img class="poster-card Udit-narayan"src="assets/images/Populer-artist/nine-poster.PNG" alt="Udit-narayan">
+                 <p class="music-title">Udit narayan</p>
+            </div>
+            
+             <div class="music-card music-card-nine">
+                      <img class="poster-card honey-singh"src="assets/images/Populer-artist/fiveth-poster.PNG" alt="Udit-narayan">
+                 <p class="music-title">Yo Yo Honey Singh</p>
+            </div>
+            
+        </div>
+        </div>
+        
+          <!-- Poupler Artist MUSIC End -->
+          
+          
+            <!-- Populer albums 
+            And singles START -->               
+            <div class="Poupler-albums">
+                
+        <a class="music Poupler-Albums-pic" href="#">Popular albums 
+            and singles</a>
+        
+        <div class="music-info">
+            
+            <div class="music-card music-card-one">
+                
+            <img class="poster-card Aashiqui-two"src="assets/images/ALBUMS/first-poster.PNG" alt="Aashiqui 2"> 
+            <p class="music-title">Aashiqui 2</p>
+            </div>
+            
+            <div class="music-card music-card-two">
+                
+               <img class="poster-card yah-jawani"src="assets/images/ALBUMS/second-poster.PNG" alt="Yeh Jawani Hai Dewani">
+               <p class="music-title">Yeh Jawani Hai Dewani</p>
+            </div>
+            
+             <div class="music-card music-card-three">
+                 
+                 <img class="poster-card sanam-teri"src="assets/images/ALBUMS/three-poster.Png" alt=" Sanam Teri Kasam (Original Motion Picture Soundtrack)">
+                  <p class="music-title">Sanam Teri Kasam (Original Motion Picture Soundtrack)</p>
+            </div>
+            <div class="music-card music-card-four">
+                  <img class="poster-card finding-her"src="assets/images/ALBUMS/fourth-poster.PNG" alt="Finding Her">
+                   <p class="music-title">Finding Her</p>
+            </div>
+            
+             <div class="music-card music-card-five">
+                 
+                   <img class="poster-card young-goat"src="assets/images/ALBUMS/sixth-poster.PNG" alt="Young G.O.A.T">
+                  <p class="music-title">Young G.O.A.T</p>
+            </div>
+            
+            <div class="music-card music-card-six">
+                    <img class="poster-card Raanjhaan"src="assets/images/ALBUMS/seven-poster.PNG" alt="Rannjhan (From "Do Patti")">
+              <p class="music-title">Rannjhan (From "Do Patti")</p>
+              
+            </div>
+            
+            <div class="music-card music-card-seven">
+                     <img class="poster-card love-song"src="assets/images/ALBUMS/eight-poster.PNG" alt="Ultimate Love Songs - Arjit Singh">
+                      <p class="music-title">Ultimate Love Songs - Arjit Singh</p>
+            </div>
+            <div class="music-card music-card-nine">
+                      <img class="poster-card making-memory"src="assets/images/ALBUMS/nine-poster.PNG" alt="Making Memory's">
+                 <p class="music-title">Making Memorys</p>
+            </div>
+            
+             <div class="music-card music-card-ten">
+                      <img class="poster-card Sicario"src="assets/images/ALBUMS/ten-poster.PNG" alt="Sicario">
+                 <p class="music-title">Sicario</p>
+            </div>
+            
+            <div class="music-card music-card-eleven">
+                      <img class="poster-card glory"src="assets/images/ALBUMS/eleven-poster.PNG" alt="Glory">
+                 <p class="music-title">Glory</p>
+            </div>
+            
+        </div>
+        </div>
+        
+        <!-- Populer albums 
+            And singles End --> 
+            
+            
+              <!-- Populer Radio 📻 
+             START -->               
+            <div class="Poupler-radio">
+                
+        <a class="music Poupler-radio-pic" href="#">Populer Radio</a>
+        
+        <div class="music-info">
+            
+            <div class="music-card music-card-one">
+                
+            <img class="poster-card Arjit-radio"src="assets/images/RADIO/first-poster.PNG" alt="Arjit Singh Radio"> 
+            <p class="music-title">Arjit Singh Radio</p>
+            </div>
+            
+            <div class="music-card music-card-two">
+                
+               <img class="poster-card kk-radio"src="assets/images/RADIO/two-poster.PNG" alt="KK Radio">
+               <p class="music-title">KK Radio</p>
+            </div>
+            
+             <div class="music-card music-card-three">
+                 
+                 <img class="poster-card Shrey-radio"src="assets/images/RADIO/three-poster.Png" alt="Shreya Ghoshal Radio">
+                  <p class="music-title">Shreya Ghoshal Radio</p>
+            </div>
+            <div class="music-card music-card-four">
+                  <img class="poster-card alka-radio"src="assets/images/RADIO/four-poster.PNG" alt="Alka Yagnik Radio">
+                   <p class="music-title">Alka Yagnik Radio</p>
+            </div>
+            
+             <div class="music-card music-card-five">
+                 
+                   <img class="poster-card diljit-radio"src="assets/images/RADIO/five-poster.PNG" alt="Diljit Dosanjh Radio">
+                  <p class="music-title">Diljit Dosanjh Radio</p>
+            </div>
+            
+            <div class="music-card music-card-six">
+                    <img class="poster-card Rahman-Radio"src="assets/images/radio/six-poster.PNG" alt="A.R. Rahman Radio">
+              <p class="music-title">A.R. Rahman Radio</p>
+              
+            </div>
+            
+            <div class="music-card music-card-seven">
+                     <img class="poster-card honey-singh-radio"src="assets/images/RADIO/seven-poster.PNG" alt="Yo Yo Honey Singh Radio">
+                      <p class="music-title">Yo Yo Honey Singh Radio</p>
+            </div>
+            <div class="music-card music-card-nine">
+                      <img class="poster-card Sidhu-Mosse-Radio"src="assets/images/RADIO/eight-poster.PNG" alt="Sidhu Mosse Wala Radio">
+                      
+                 <p class="music-title">Sidhu Mosse Wala Radio</p>
+            </div>
+            
+             <div class="music-card music-card-ten">
+                      <img class="poster-card Kishore-Kumar-Radio"src="assets/images/RADIO/nine-poster.PNG" alt="Kishore Kumar Radio">
+                 <p class="music-title">Kishore Kumar Radio</p>
+            </div>
+        </div>
+        </div>
+        
+        <!-- Populer Radio
+             End --> 
+             
+             
+             
+              <!-- Featured Charts
+             START -->               
+            <div class="Featured-Charts">
+                
+        <a class="music Featured-Charts-pic" href="#">Featured Charts</a>
+        
+        <div class="music-info">
+            
+            <div class="music-card music-card-one">
+                
+            <img class="poster-card top-songs-global"src="assets/images/CHARTS/first-poster.PNG" alt="Top Songs - Global"> 
+            <p class="music-title">Top Songs - Global</p>
+            </div>
+            
+            <div class="music-card music-card-two">
+                
+               <img class="poster-card top-songs-india"src="assets/images/CHARTS/second-poster.PNG" alt="Top Songs - India">
+               <p class="music-title">Top Songs - India</p>
+            </div>
+            
+             <div class="music-card music-card-three">
+                 
+                 <img class="poster-card top-fivety-golbal"src="assets/images/CHARTS/three-poster.Png" alt="Top 50 - Global">
+                  <p class="music-title">Top 50 - Global</p>
+            </div>
+            
+            <div class="music-card music-card-four">
+                  <img class="poster-card top-fivety-india"src="assets/images/CHARTS/four-poster.PNG" alt="Top 50 - India">
+                   <p class="music-title">Top 50 - India</p>
+            </div>
+            
+             <div class="music-card music-card-five">
+                 
+                   <img class="poster-card viral-fivety-global"src="assets/images/CHARTS/five-poster.PNG" alt=" Viral 50 - Global">
+                  <p class="music-title"> Viral 50 - Global</p>
+            </div>
+            
+            <div class="music-card music-card-six">
+                    <img class="poster-card viral-fivety-india"src="assets/images/CHARTS/six-poster.PNG" alt="Viral 50 - India">
+              <p class="music-title">Viral 50 - India</p>
+              
+            </div>
+        </div>
+        </div>
+        
+        <!-- Featured Charts
+             End --> 
+                      
+        </section>
+        
+        <!-- ALL SONGS END -->    
+        <!-- START NAV BAR -->
+      <section class="nav-list">
+          
+          <nav class="nav-bar">
+              <ul>
+                  <li>
+                      <div class="btn-nav home-bar">
+                         <span class="material-symbols-outlined">
+home
+</span>
+                   <p class="home-text">Home</p>
+                      </div>
+                  </li>
+                  
+                  <li>
+                      <div class="btn-nav Search-bar">
+                             <i class="search-logo ri-search-line">
+                                 <span class="search-logo-click"></span>
+                             </i>
+                          <p class="search-text">Search</p>
+                          </div>
+                  </li>
+                  
+                   <li>
+                       <div class="btn-nav Library">
+                         <img class="library-logo" src="assets/images/1000165199.svg" alt="music library"</li>
+                    <p class="Library-text">Your Library</p>
+                    </div>
+            </li>
+            
+                  <li>
+                      
+                    <div class="btn-nav premium">
+             <i class="premium-logo ri-spotify-fill"></i>
+        <p class="premium-text">Premium</p>
+        </div>
+                  </li>
+              </ul>
+          </nav>
+     </section>
+        <!--- NAV BAR END-->
+        
+        <footer class="footer">
+        <div class="main-content-footer">
+                <h3 class="page">Company</h3>
+                <div class="new">
+                <a class="help-us" href="#">About</a>
+                <a class="help-us" href="#">Jobs</a>
+                <a class="help-us" href="#">For The Record</a>
+            </div>
+            
+            <div class="about-page">
+                <h3 class="page">Communities</h3>
+                <a class="help-us" href="#">For Artist</a>
+                <a class="help-us" href="#">Developers</a>
+                <a class="help-us" href="#">Advertising</a>
+                  <a class="help-us" href="#">Investors</a>
+                    <a class="help-us" href="#">Vendor</a>
+            </div>
+            
+               <div class="contact">
+                <h3 class="page">Useful links</h3>
+                <a class="help-us" href="#">Support</a>
+                <a class="help-us" href="#">Free Mobile App</a>
+                <a class="help-us" href="#">Popular by Country</a>
+                  <a class="help-us" href="#">Imort your music</a>
+                    <a class="help-us" href="#">Vendor</a>
+            </div>
+            
+              <div class="spotify-plans">
+                <h3 class="page">SpotiFy Plans</h3>
+                <a class="help-us" href="#">Premium Individual</a>
+                <a class="help-us" href="#">Premium Dup</a>
+                <a class="help-us" href="#">Premium Family</a>
+                  <a class="help-us" href="#">Premium Student</a>
+                    <a class="help-us" href="#">SpotiFy Free</a>
+            </div>
+            
+            <div class="socail-icon">
+               
+            <i class="footer-icon ri-instagram-line"></i>
+            <i class="footer-icon ri-twitter-fill"></i>
+              <i class="footer-icon ri-facebook-circle-fill"></i>
+            </div>
+            <div class="other-info">
+                
+            <section class="divider-two"></section>
+            <div class="other-info-items">
+                <div class="info-container info-container-one">
+                <p class="info-content legal">Legal</p>
+                 <p class="info-content safe-pri">Safety & Privacy Center</p>
+                    <p class="info-content pri-policy">Privacy Policy</p>
+                    </div>
+                      <div class="info-container info-container-two">
+                       <p class="info-content cookies-store">Cookies</p>
+                         <p class="info-content about-ads">About Ads</p>
+                
+                  <p class="info-content cookies-store">Accessibility</p>
+                  </div>
+                  <div class="copy-powerd">
+                  <p class="info-content copyright">&copy;205 Spotify Ab</p>
+                  </div>
+                  <select class="drop-down">
+                      <option class="lang-select internet">&#127760; English</option>
+                      
+                       <option class="lang-select">ENGLISH</option>
+                       <option class="lang-select">हिन्दी</option>
+                       <option class="lang-select">اردو</option>
+                  </select>
+            </div>
+             <div class="space">
+            </div>
+            </div>
+        </div>
+        
+    </footer>
+    </main>
+    </div>
+     <!--- MOBILE HTML START 📱 -->
+</body>
+</html>
